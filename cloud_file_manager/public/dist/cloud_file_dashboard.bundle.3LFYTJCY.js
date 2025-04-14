@@ -19574,10 +19574,11 @@
   // ../cloud_file_manager/cloud_file_manager/public/js/cloud_file_dashboard/App.jsx
   var React = __toESM(require_react());
   function App() {
-    const dynamicMessage = React.useState("Hello from App.jsx");
-    return /* @__PURE__ */ React.createElement("div", {
-      className: "m-4"
-    }, /* @__PURE__ */ React.createElement("h3", null, dynamicMessage), /* @__PURE__ */ React.createElement("h4", null, "Start editing at cloud_file_manager/public/js/cloud_file_dashboard/App.jsx"));
+    return /* @__PURE__ */ React.createElement("main", {
+      className: "tw"
+    }, /* @__PURE__ */ React.createElement("div", {
+      className: "tw-m-4"
+    }, /* @__PURE__ */ React.createElement("h4", null, "Start editing at cloud_file_manager/public/js/cloud_file_dashboard/App.jsx")));
   }
 
   // ../cloud_file_manager/cloud_file_manager/public/js/cloud_file_dashboard/cloud_file_dashboard.bundle.jsx
@@ -19644,4 +19645,4 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-//# sourceMappingURL=cloud_file_dashboard.bundle.NFTBHXCS.js.map
+//# sourceMappingURL=cloud_file_dashboard.bundle.3LFYTJCY.js.map

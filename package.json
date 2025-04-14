@@ -4,6 +4,7 @@
   "description": "Stores file metadata (S3 URLs, etc.), can be related to any document in any app.",
   "main": "index.js",
   "scripts": {
+    "tailwindcssbuild": "npx tailwindcss -i ./cloud_file_manager/public/js/cloud_file_dashboard/globals.css -o ./cloud_file_manager/public/css/tailwind.css --watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
