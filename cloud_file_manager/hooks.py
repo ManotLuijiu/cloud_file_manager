@@ -26,8 +26,26 @@ commands = ["cloud_file_manager.cloud_file_manager.commands"]
 
 fixtures = [{"doctype": "DocType", "filters": [["name", "=", "Cloud File"]]}]
 
-app_include_css = [
-    "/assets/cloud_files_manager/css/tailwind.css"
+app_include_css = ["/assets/cloud_files_manager/css/tailwind.css"]
+
+# include js in doctype views
+doctype_list_js = {
+    "Cloud File": "cloud_file_manager/doctype/cloud_file/cloud_file_list.js"
+}
+
+# include js in doctype views
+doctype_js = {"Cloud File": "cloud_file_manager/doctype/cloud_file/cloud_file.js"}
+
+# Define an API handler for these routes
+rest_endpoints = [
+    {
+        "path": "/api/method/cloud_file_manager.api.cloud_file_api.get_cloud_files",
+        "method": "cloud_file_manager.api.cloud_file_api.get_cloud_files",
+    },
+    {
+        "path": "/api/method/cloud_file_manager.api.cloud_file_api.create_cloud_file",
+        "method": "cloud_file_manager.api.cloud_file_api.create_cloud_file",
+    },
 ]
 
 # Includes in <head>
