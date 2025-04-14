@@ -1,7 +1,7 @@
 frappe.pages["cloud-file-dashboard"].on_page_load = function (wrapper) {
 	frappe.ui.make_app_page({
 		parent: wrapper,
-		title: __("cloud-file-dashboard"),
+		title: __("Cloud File Dashboard"),
 		single_column: true,
 	});
 };
