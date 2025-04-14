@@ -26,6 +26,10 @@ commands = ["cloud_file_manager.cloud_file_manager.commands"]
 
 fixtures = [{"doctype": "DocType", "filters": [["name", "=", "Cloud File"]]}]
 
+app_include_css = [
+    "/assets/cloud_files_manager/css/tailwind.css"
+]
+
 # Includes in <head>
 # ------------------
 
