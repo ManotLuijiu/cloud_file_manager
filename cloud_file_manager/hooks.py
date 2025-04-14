@@ -1,7 +1,7 @@
 app_name = "cloud_file_manager"
 app_title = "Cloud File Manager"
 app_publisher = "Manot L."
-app_description = "Stores file metadata (S3 URLs, etc.), can be related to any document in any app, is not(good for dfp_external_storage0"
+app_description = "Stores file metadata (S3 URLs, etc.), can be related to any document in any app, is not deleted on app unintall (use together with dfp_external_storage)"
 app_email = "moocoding@gmail.com"
 app_license = "mit"
 
@@ -20,6 +20,11 @@ app_license = "mit"
 # 		"has_permission": "cloud_file_manager.api.permission.has_app_permission"
 # 	}
 # ]
+
+# Register commands
+commands = ["cloud_file_manager.cloud_file_manager.commands"]
+
+fixtures = [{"doctype": "DocType", "filters": [["name", "=", "Cloud File"]]}]
 
 # Includes in <head>
 # ------------------
@@ -241,4 +246,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-

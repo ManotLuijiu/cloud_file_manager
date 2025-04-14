@@ -3,7 +3,7 @@ name = "cloud_file_manager"
 authors = [
     { name = "Manot L.", email = "moocoding@gmail.com"}
 ]
-description = "Stores file metadata (S3 URLs, etc.), can be related to any document in any app, is not(good for dfp_external_storage0"
+description = "Stores file metadata (S3 URLs, etc.), can be related to any document in any app, is not deleted on app unintall (use together with dfp_external_storage)"
 requires-python = ">=3.10"
 readme = "README.md"
 dynamic = ["version"]
