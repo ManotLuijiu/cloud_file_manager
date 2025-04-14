@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2025-04-14 22:30:10.982979",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2025-04-14 22:30:10.982979",
+ "modified_by": "Administrator",
+ "module": "Cloud File Manager",
+ "name": "cloud-file-dashboard",
+ "owner": "Administrator",
+ "page_name": "cloud-file-dashboard",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "cloud-file-dashboard"
+}
