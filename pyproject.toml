@@ -1,0 +1,20 @@
+[project]
+name = "cloud_file_manager"
+authors = [
+    { name = "Manot L.", email = "moocoding@gmail.com"}
+]
+description = "Stores file metadata (S3 URLs, etc.), can be related to any document in any app, is not(good for dfp_external_storage0"
+requires-python = ">=3.10"
+readme = "README.md"
+dynamic = ["version"]
+dependencies = [
+    # "frappe~=15.0.0" # Installed and managed by bench.
+]
+
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+# These dependencies are only installed when developer mode is enabled
+[tool.bench.dev-dependencies]
+# package_name = "~=1.1.0"
