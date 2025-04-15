@@ -19573,12 +19573,121 @@
 
   // ../cloud_file_manager/cloud_file_manager/public/js/cloud_file_dashboard/App.jsx
   var React = __toESM(require_react());
+  var import_react = __toESM(require_react());
   function App() {
+    const [files, setFiles] = (0, import_react.useState)([]);
+    const [fileTypes, setFileTypes] = (0, import_react.useState)([]);
+    const [isLoading, setIsLoading] = (0, import_react.useState)(true);
+    (0, import_react.useEffect)(() => {
+      fetchDashboardData();
+    }, []);
+    const fetchDashboardData = async () => {
+      try {
+        setIsLoading(true);
+        const response = await frappe.call({
+          method: "cloud_file_manager.api.cloud_file_api.get_dashboard_data"
+        });
+        if (response && response.message) {
+          setFiles(response.message.recent_files || []);
+          setFileTypes(response.message.file_types || []);
+          setIsLoading(false);
+        } else {
+          console.error("Invalid response from server:", response);
+        }
+      } catch (error) {
+        console.error("Error fetching dashboard data:", error);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+    const handleAddNewFile = () => {
+      frappe.new_doc("Cloud File");
+    };
+    const handleViewAllFiles = () => {
+      frappe.set_route("List", "Cloud File");
+    };
+    (0, import_react.useEffect)(() => {
+      if (fileTypes.length > 0 && !isLoading) {
+        const data = {
+          labels: fileTypes.map((d) => d.file_type || __("not specified")),
+          datasets: [{ values: fileTypes.map((d) => d.count) }]
+        };
+        if (document.getElementById("files-by-type-chart")) {
+          new frappe.Chart("#files-by-type-chart", {
+            data,
+            type: "pie",
+            height: 220,
+            colors: ["#7cd6fd", "#743ee2", "#5eaa5f", "#ff5858"]
+          });
+        }
+      }
+    }, [fileTypes, isLoading]);
+    if (isLoading) {
+      return /* @__PURE__ */ React.createElement("main", {
+        className: "tw"
+      }, /* @__PURE__ */ React.createElement("div", {
+        className: "tw-flex tw-justify-center tw-items-center tw-h-52"
+      }, /* @__PURE__ */ React.createElement("div", {
+        className: "tw-text-slate-400"
+      }, /* @__PURE__ */ React.createElement("span", null, __("Loading Dashboard Data...")))));
+    }
     return /* @__PURE__ */ React.createElement("main", {
       className: "tw"
     }, /* @__PURE__ */ React.createElement("div", {
-      className: "tw-m-4"
-    }, /* @__PURE__ */ React.createElement("h4", null, "Start editing at cloud_file_manager/public/js/cloud_file_dashboard/App.jsx")));
+      className: "cloud-file-dashboard tw-p-6"
+    }, /* @__PURE__ */ React.createElement("div", {
+      className: "dashboard-header tw-mb-6"
+    }, /* @__PURE__ */ React.createElement("h3", null, __("Cloud File Dashboard")), /* @__PURE__ */ React.createElement("p", {
+      className: "tw-text-slate-600"
+    }, __("Overall"))), /* @__PURE__ */ React.createElement("div", {
+      className: "tw-grid tw-grid-cols-1 tw-md:grid-cols-2 tw-gap-6 tw-mb-6"
+    }, /* @__PURE__ */ React.createElement("div", {
+      className: "stats-box tw-bg-white tw-p-4 tw-rounded tw-shadow"
+    }, /* @__PURE__ */ React.createElement("h4", {
+      className: "tw-mb-4"
+    }, __("Files Cat.")), /* @__PURE__ */ React.createElement("div", {
+      id: "files-by-type-chart",
+      className: "w-h-56"
+    })), /* @__PURE__ */ React.createElement("div", {
+      className: "stats-box tw-bg-white tw-p-4 tw-rounded tw-shadow"
+    }, /* @__PURE__ */ React.createElement("h4", {
+      className: "tw-mb-4"
+    }, __("Lasted file")), files.length > 0 ? /* @__PURE__ */ React.createElement("div", {
+      className: "tw-overflow-x-auto"
+    }, /* @__PURE__ */ React.createElement("table", {
+      className: "tw-w-full"
+    }, /* @__PURE__ */ React.createElement("thead", null, /* @__PURE__ */ React.createElement("tr", {
+      className: "tw-border-b"
+    }, /* @__PURE__ */ React.createElement("th", {
+      className: "tw-text-left tw-py-2"
+    }, __("Files URL")), /* @__PURE__ */ React.createElement("th", {
+      className: "tw-text-left tw-py-2"
+    }, __("Categories")), /* @__PURE__ */ React.createElement("th", {
+      className: "tw-text-left tw-py-2"
+    }, __("Reference")))), /* @__PURE__ */ React.createElement("tbody", null, files.map((file, idx) => /* @__PURE__ */ React.createElement("tr", {
+      key: idx,
+      className: "tw-border-b"
+    }, /* @__PURE__ */ React.createElement("td", {
+      className: "tw-py-2"
+    }, /* @__PURE__ */ React.createElement("a", {
+      href: file.file_url,
+      target: "_blank",
+      rel: "noopener noreferrer"
+    }, file.file_url.substring(0, 30), "...")), /* @__PURE__ */ React.createElement("td", {
+      className: "tw-py-2"
+    }, file.file_type || __("not specified")), /* @__PURE__ */ React.createElement("td", {
+      className: "tw-py-2"
+    }, file.ref_doctype ? `${file.ref_doctype}: ${file.ref_docname}` : __("no files"))))))) : /* @__PURE__ */ React.createElement("div", {
+      className: "tw-flex tw-justify-center tw-items-center tw-h-40 tw-text-slate-500"
+    }, __("no files uploaded yet")))), /* @__PURE__ */ React.createElement("div", {
+      className: "action-buttons"
+    }, /* @__PURE__ */ React.createElement("button", {
+      className: "btn btn-primary mr-2",
+      onClick: handleAddNewFile
+    }, __("Add File")), /* @__PURE__ */ React.createElement("button", {
+      className: "btn btn-default",
+      onClick: handleViewAllFiles
+    }, __("List Files")))));
   }
 
   // ../cloud_file_manager/cloud_file_manager/public/js/cloud_file_dashboard/cloud_file_dashboard.bundle.jsx
@@ -19645,4 +19754,4 @@
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-//# sourceMappingURL=cloud_file_dashboard.bundle.3LFYTJCY.js.map
+//# sourceMappingURL=cloud_file_dashboard.bundle.TEAB6G2N.js.map

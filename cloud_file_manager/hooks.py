@@ -26,7 +26,13 @@ commands = ["cloud_file_manager.cloud_file_manager.commands"]
 
 fixtures = [{"doctype": "DocType", "filters": [["name", "=", "Cloud File"]]}]
 
-app_include_css = ["/assets/cloud_files_manager/css/tailwind.css"]
+app_include_css = ["/assets/cloud_file_manager/css/tailwind.css"]
+
+# app_include_css = [
+#     "/assets/translation_tools/css/tailwind.css",
+#     "/assets/translation_tools/css/thai_fonts.css",
+#     "/assets/translation_tools/css/fonts.css",
+# ]
 
 # include js in doctype views
 doctype_list_js = {
