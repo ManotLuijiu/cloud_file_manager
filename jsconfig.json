@@ -1,8 +1,0 @@
-{
-    "compilerOptions": {
-      "paths": {
-        "@/*": ["./cloud_file_manager/public/js/cloud_file_dashboard/*"]
-      }
-    }
-}
-  

@@ -1,66 +1,157 @@
 {
- "actions": [],
- "allow_rename": 1,
- "creation": "2025-04-14 22:11:13.880929",
- "doctype": "DocType",
- "editable_grid": 1,
- "engine": "InnoDB",
- "field_order": [
-  "file_url",
-  "file_type",
-  "ref_doctype",
-  "ref_docname"
- ],
- "fields": [
-  {
-   "fieldname": "file_url",
-   "fieldtype": "Data",
-   "in_list_view": 1,
-   "label": "File URL",
-   "reqd": 1
-  },
-  {
-   "fieldname": "file_type",
-   "fieldtype": "Select",
-   "label": "File Type",
-   "options": "S3\nGoogle Cloud\nLocal\nOther"
-  },
-  {
-   "fieldname": "ref_doctype",
-   "fieldtype": "Link",
-   "label": "Reference Doctype",
-   "options": "DocType"
-  },
-  {
-   "fieldname": "ref_docname",
-   "fieldtype": "Data",
-   "label": "Reference Docname"
-  }
- ],
- "grid_page_length": 50,
- "index_web_pages_for_search": 1,
- "links": [],
- "modified": "2025-04-14 22:11:13.880929",
- "modified_by": "Administrator",
- "module": "Cloud File Manager",
- "name": "Cloud File",
- "owner": "Administrator",
- "permissions": [
-  {
-   "create": 1,
-   "delete": 1,
-   "email": 1,
-   "export": 1,
-   "print": 1,
-   "read": 1,
-   "report": 1,
-   "role": "System Manager",
-   "share": 1,
-   "write": 1
-  }
- ],
- "row_format": "Dynamic",
- "sort_field": "modified",
- "sort_order": "DESC",
- "states": []
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2025-04-14 22:11:13.880929",
+    "doctype": "DocType",
+    "editable_grid": 1,
+    "engine": "InnoDB",
+    "field_order": [
+        "file_name",
+        "file_url",
+        "s3_url",
+        "file_size",
+        "file_type",
+        "column_break_5",
+        "folder_path",
+        "is_public",
+        "uploaded_by",
+        "upload_date",
+        "section_break_10",
+        "reference_doctype",
+        "reference_docname",
+        "column_break_13",
+        "tags",
+        "description"
+    ],
+    "fields": [
+        {
+            "fieldname": "file_name",
+            "fieldtype": "Data",
+            "label": "File Name",
+            "reqd": 1
+        },
+        {
+            "fieldname": "file_url",
+            "fieldtype": "Data",
+            "label": "File URL",
+            "read_only": 1
+        },
+        {
+            "fieldname": "s3_url",
+            "fieldtype": "Data",
+            "label": "S3 URL",
+            "read_only": 1
+        },
+        {
+            "fieldname": "file_size",
+            "fieldtype": "Int",
+            "label": "File Size (bytes)",
+            "read_only": 1
+        },
+        {
+            "fieldname": "file_type",
+            "fieldtype": "Data",
+            "label": "File Type",
+            "read_only": 1
+        },
+        {
+            "fieldname": "column_break_5",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "folder_path",
+            "fieldtype": "Data",
+            "default": "public/files/products",
+            "label": "Folder Path"
+        },
+        {
+            "fieldname": "is_public",
+            "fieldtype": "Check",
+            "default": 1,
+            "label": "Is Public"
+        },
+        {
+            "fieldname": "uploaded_by",
+            "fieldtype": "Link",
+            "label": "Uploaded By",
+            "options": "User",
+            "read_only": 1
+        },
+        {
+            "fieldname": "upload_date",
+            "fieldtype": "Datetime",
+            "label": "Upload Date",
+            "read_only": 1
+        },
+        {
+            "fieldname": "section_break_10",
+            "fieldtype": "Section Break",
+            "label": "Reference"
+        },
+        {
+            "fieldname": "reference_doctype",
+            "fieldtype": "Link",
+            "label": "Reference DocType",
+            "options": "DocType"
+        },
+        {
+            "fieldname": "reference_docname",
+            "fieldtype": "Dynamic Link",
+            "label": "Reference Document",
+            "options": "reference_doctype"
+        },
+        {
+            "fieldname": "column_break_13",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "tags",
+            "fieldtype": "Data",
+            "label": "Tags"
+        },
+        {
+            "fieldname": "description",
+            "fieldtype": "Text",
+            "label": "Description"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "links": [],
+    "modified": "2025-04-14 22:11:13.880929",
+    "modified_by": "Administrator",
+    "module": "Cloud File Manager",
+    "name": "Cloud File",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        },
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "File Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "row_format": "Dynamic",
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "title_field": "file_name",
+    "states": []
 }
