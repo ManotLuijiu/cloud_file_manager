@@ -19704,14 +19704,29 @@
   ];
   var ChartColumn = createLucideIcon("chart-column", __iconNode);
 
-  // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/cloud.js
+  // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/circle-alert.js
   var __iconNode2 = [
+    ["circle", { cx: "12", cy: "12", r: "10", key: "1mglay" }],
+    ["line", { x1: "12", x2: "12", y1: "8", y2: "12", key: "1pkeuh" }],
+    ["line", { x1: "12", x2: "12.01", y1: "16", y2: "16", key: "4dfq90" }]
+  ];
+  var CircleAlert = createLucideIcon("circle-alert", __iconNode2);
+
+  // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/circle-check-big.js
+  var __iconNode3 = [
+    ["path", { d: "M21.801 10A10 10 0 1 1 17 3.335", key: "yps3ct" }],
+    ["path", { d: "m9 11 3 3L22 4", key: "1pflzl" }]
+  ];
+  var CircleCheckBig = createLucideIcon("circle-check-big", __iconNode3);
+
+  // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/cloud.js
+  var __iconNode4 = [
     ["path", { d: "M17.5 19H9a7 7 0 1 1 6.71-9h1.79a4.5 4.5 0 1 1 0 9Z", key: "p7xjir" }]
   ];
-  var Cloud = createLucideIcon("cloud", __iconNode2);
+  var Cloud = createLucideIcon("cloud", __iconNode4);
 
   // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/eye.js
-  var __iconNode3 = [
+  var __iconNode5 = [
     [
       "path",
       {
@@ -19721,17 +19736,17 @@
     ],
     ["circle", { cx: "12", cy: "12", r: "3", key: "1v7zrd" }]
   ];
-  var Eye = createLucideIcon("eye", __iconNode3);
+  var Eye = createLucideIcon("eye", __iconNode5);
 
   // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/file.js
-  var __iconNode4 = [
+  var __iconNode6 = [
     ["path", { d: "M15 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7Z", key: "1rqfz7" }],
     ["path", { d: "M14 2v4a2 2 0 0 0 2 2h4", key: "tnqrlb" }]
   ];
-  var File = createLucideIcon("file", __iconNode4);
+  var File = createLucideIcon("file", __iconNode6);
 
   // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/folder.js
-  var __iconNode5 = [
+  var __iconNode7 = [
     [
       "path",
       {
@@ -19740,50 +19755,151 @@
       }
     ]
   ];
-  var Folder = createLucideIcon("folder", __iconNode5);
+  var Folder = createLucideIcon("folder", __iconNode7);
 
   // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/plus.js
-  var __iconNode6 = [
+  var __iconNode8 = [
     ["path", { d: "M5 12h14", key: "1ays0h" }],
     ["path", { d: "M12 5v14", key: "s699le" }]
   ];
-  var Plus = createLucideIcon("plus", __iconNode6);
+  var Plus = createLucideIcon("plus", __iconNode8);
 
   // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/refresh-cw.js
-  var __iconNode7 = [
+  var __iconNode9 = [
     ["path", { d: "M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8", key: "v9h5vc" }],
     ["path", { d: "M21 3v5h-5", key: "1q7to0" }],
     ["path", { d: "M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16", key: "3uifl3" }],
     ["path", { d: "M8 16H3v5", key: "1cv678" }]
   ];
-  var RefreshCw = createLucideIcon("refresh-cw", __iconNode7);
+  var RefreshCw = createLucideIcon("refresh-cw", __iconNode9);
 
   // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/search.js
-  var __iconNode8 = [
+  var __iconNode10 = [
     ["circle", { cx: "11", cy: "11", r: "8", key: "4ej97u" }],
     ["path", { d: "m21 21-4.3-4.3", key: "1qie3q" }]
   ];
-  var Search = createLucideIcon("search", __iconNode8);
+  var Search = createLucideIcon("search", __iconNode10);
 
   // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/trash-2.js
-  var __iconNode9 = [
+  var __iconNode11 = [
     ["path", { d: "M3 6h18", key: "d0wm0j" }],
     ["path", { d: "M19 6v14c0 1-1 2-2 2H7c-1 0-2-1-2-2V6", key: "4alrt4" }],
     ["path", { d: "M8 6V4c0-1 1-2 2-2h4c1 0 2 1 2 2v2", key: "v07s0e" }],
     ["line", { x1: "10", x2: "10", y1: "11", y2: "17", key: "1uufr5" }],
     ["line", { x1: "14", x2: "14", y1: "11", y2: "17", key: "xtxkd" }]
   ];
-  var Trash2 = createLucideIcon("trash-2", __iconNode9);
+  var Trash2 = createLucideIcon("trash-2", __iconNode11);
 
   // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/upload.js
-  var __iconNode10 = [
+  var __iconNode12 = [
     ["path", { d: "M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4", key: "ih7n3h" }],
     ["polyline", { points: "17 8 12 3 7 8", key: "t8dd8p" }],
     ["line", { x1: "12", x2: "12", y1: "3", y2: "15", key: "widbto" }]
   ];
-  var Upload = createLucideIcon("upload", __iconNode10);
+  var Upload = createLucideIcon("upload", __iconNode12);
+
+  // ../cloud_file_manager/node_modules/lucide-react/dist/esm/icons/x.js
+  var __iconNode13 = [
+    ["path", { d: "M18 6 6 18", key: "1bl5f8" }],
+    ["path", { d: "m6 6 12 12", key: "d8bk6v" }]
+  ];
+  var X = createLucideIcon("x", __iconNode13);
 
   // ../cloud_file_manager/cloud_file_manager/public/js/cloud_file_uploader/App.jsx
+  var CloudFileErrorBoundary = class extends import_react3.default.Component {
+    constructor(props) {
+      super(props);
+      this.state = { hasError: false, error: null, errorInfo: null };
+    }
+    static getDerivedStateFromError(error) {
+      return { hasError: true, error };
+    }
+    componentDidCatch(error, errorInfo) {
+      console.error("Cloud File Manager Error:", error, errorInfo);
+      this.setState({ errorInfo });
+      if (window.frappe && frappe.show_alert) {
+        frappe.show_alert({
+          message: "An error occurred in the file manager. Please refresh the page.",
+          indicator: "red"
+        });
+      }
+    }
+    render() {
+      if (this.state.hasError) {
+        return /* @__PURE__ */ import_react3.default.createElement("div", {
+          className: "error-fallback p-6 text-center border-2 border-red-200 bg-red-50 rounded-lg"
+        }, /* @__PURE__ */ import_react3.default.createElement(CircleAlert, {
+          className: "mx-auto h-12 w-12 text-red-500 mb-4"
+        }), /* @__PURE__ */ import_react3.default.createElement("h3", {
+          className: "text-lg font-semibold text-red-800 mb-2"
+        }, "Something went wrong"), /* @__PURE__ */ import_react3.default.createElement("p", {
+          className: "text-red-600 mb-4"
+        }, "The file manager encountered an error. Please refresh the page and try again."), /* @__PURE__ */ import_react3.default.createElement("div", {
+          className: "space-x-2"
+        }, /* @__PURE__ */ import_react3.default.createElement("button", {
+          className: "btn btn-primary",
+          onClick: () => window.location.reload()
+        }, "Refresh Page"), /* @__PURE__ */ import_react3.default.createElement("button", {
+          className: "btn btn-secondary",
+          onClick: () => this.setState({ hasError: false, error: null, errorInfo: null })
+        }, "Try Again")), this.state.error && /* @__PURE__ */ import_react3.default.createElement("details", {
+          className: "mt-4 text-left"
+        }, /* @__PURE__ */ import_react3.default.createElement("summary", {
+          className: "cursor-pointer text-sm text-gray-600"
+        }, "Error Details"), /* @__PURE__ */ import_react3.default.createElement("pre", {
+          className: "mt-2 text-xs bg-gray-100 p-2 rounded overflow-auto"
+        }, this.state.error.toString(), this.state.errorInfo && this.state.errorInfo.componentStack)));
+      }
+      return this.props.children;
+    }
+  };
+  var FileUploadManager = class {
+    constructor() {
+      this.activeReaders = /* @__PURE__ */ new Set();
+      this.abortControllers = /* @__PURE__ */ new Set();
+    }
+    async readFileAsBase64(file) {
+      return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+        this.activeReaders.add(reader);
+        reader.onload = () => {
+          this.activeReaders.delete(reader);
+          const base64 = reader.result.split(",")[1];
+          resolve(base64);
+        };
+        reader.onerror = () => {
+          this.activeReaders.delete(reader);
+          reject(new Error("File reading failed"));
+        };
+        const timeout = setTimeout(() => {
+          if (this.activeReaders.has(reader)) {
+            reader.abort();
+            this.activeReaders.delete(reader);
+            reject(new Error("File reading timeout"));
+          }
+        }, 3e4);
+        reader.onloadend = () => clearTimeout(timeout);
+        reader.readAsDataURL(file);
+      });
+    }
+    createAbortController() {
+      const controller = new AbortController();
+      this.abortControllers.add(controller);
+      return controller;
+    }
+    cleanup() {
+      this.activeReaders.forEach((reader) => {
+        if (reader.readyState === FileReader.LOADING) {
+          reader.abort();
+        }
+      });
+      this.activeReaders.clear();
+      this.abortControllers.forEach((controller) => {
+        controller.abort();
+      });
+      this.abortControllers.clear();
+    }
+  };
   var App = () => {
     var _a, _b, _c;
     const [activeTab, setActiveTab] = (0, import_react3.useState)("upload");
@@ -19794,12 +19910,18 @@
     const [searchTerm, setSearchTerm] = (0, import_react3.useState)("");
     const [filterType, setFilterType] = (0, import_react3.useState)("all");
     const [dragActive, setDragActive] = (0, import_react3.useState)(false);
-    const [uploadConfig, setUploadConfig] = (0, import_react3.useState)({
-      folder_path: "public/files/products",
-      reference_doctype: "",
-      reference_docname: "",
-      description: "",
-      tags: ""
+    const [uploadProgress, setUploadProgress] = (0, import_react3.useState)({});
+    const [error, setError] = (0, import_react3.useState)(null);
+    const [uploadManager] = (0, import_react3.useState)(() => new FileUploadManager());
+    const [uploadConfig, setUploadConfig] = (0, import_react3.useState)(() => {
+      const saved = localStorage.getItem("cloud_file_upload_config");
+      return saved ? JSON.parse(saved) : {
+        folder_path: "public/files/products",
+        reference_doctype: "",
+        reference_docname: "",
+        description: "",
+        tags: ""
+      };
     });
     const [migrationConfig, setMigrationConfig] = (0, import_react3.useState)({
       auto_organize: true,
@@ -19813,11 +19935,35 @@
       }
     });
     (0, import_react3.useEffect)(() => {
+      localStorage.setItem("cloud_file_upload_config", JSON.stringify(uploadConfig));
+    }, [uploadConfig]);
+    (0, import_react3.useEffect)(() => {
       loadFiles();
+      return () => {
+        uploadManager.cleanup();
+      };
     }, []);
-    const loadFiles = async () => {
+    const handleError = (0, import_react3.useCallback)((error2, context = "") => {
+      console.error(`Error in ${context}:`, error2);
+      setError(`${context}: ${error2.message || "An unexpected error occurred"}`);
+      if (window.frappe && frappe.show_alert) {
+        frappe.show_alert({
+          message: `Error ${context}: ${error2.message || "Unknown error"}`,
+          indicator: "red"
+        });
+      }
+    }, []);
+    (0, import_react3.useEffect)(() => {
+      if (error) {
+        const timer = setTimeout(() => setError(null), 5e3);
+        return () => clearTimeout(timer);
+      }
+    }, [error]);
+    const loadFiles = (0, import_react3.useCallback)(async () => {
       setLoading(true);
+      setError(null);
       try {
+        const abortController = uploadManager.createAbortController();
         const response = await frappe.call({
           method: "frappe.client.get_list",
           args: {
@@ -19825,89 +19971,119 @@
             fields: ["*"],
             limit_page_length: 100,
             order_by: "creation desc"
-          }
+          },
+          signal: abortController.signal
         });
         setFiles(response.message || []);
-      } catch (error) {
-        console.error("Error loading files:", error);
-        frappe.msgprint("Error loading files");
+      } catch (error2) {
+        if (error2.name !== "AbortError") {
+          handleError(error2, "loading files");
+        }
       } finally {
         setLoading(false);
       }
-    };
+    }, [handleError, uploadManager]);
+    const filteredFiles = (0, import_react3.useMemo)(() => {
+      return files.filter((file) => {
+        var _a2, _b2, _c2, _d;
+        const matchesSearch = !searchTerm || ((_a2 = file.file_name) == null ? void 0 : _a2.toLowerCase().includes(searchTerm.toLowerCase())) || ((_b2 = file.tags) == null ? void 0 : _b2.toLowerCase().includes(searchTerm.toLowerCase()));
+        const matchesType = filterType === "all" || filterType === "images" && ((_c2 = file.file_type) == null ? void 0 : _c2.match(/\.(jpg|jpeg|png|gif)$/i)) || filterType === "documents" && ((_d = file.file_type) == null ? void 0 : _d.match(/\.(pdf|doc|docx)$/i)) || filterType === "public" && file.is_public || filterType === "private" && !file.is_public;
+        return matchesSearch && matchesType;
+      });
+    }, [files, searchTerm, filterType]);
+    const validateFile = (0, import_react3.useCallback)((file) => {
+      const maxSize = 10 * 1024 * 1024;
+      const allowedTypes = [".jpg", ".jpeg", ".png", ".gif", ".pdf", ".doc", ".docx", ".txt"];
+      if (file.size > maxSize) {
+        throw new Error(`File ${file.name} exceeds 10MB limit`);
+      }
+      const extension = "." + file.name.split(".").pop().toLowerCase();
+      if (!allowedTypes.includes(extension)) {
+        throw new Error(`File type ${extension} is not allowed`);
+      }
+      return true;
+    }, []);
     const handleDragOver = (0, import_react3.useCallback)((e) => {
       e.preventDefault();
+      e.stopPropagation();
       setDragActive(true);
     }, []);
     const handleDragLeave = (0, import_react3.useCallback)((e) => {
       e.preventDefault();
+      e.stopPropagation();
       setDragActive(false);
     }, []);
     const handleDrop = (0, import_react3.useCallback)((e) => {
       e.preventDefault();
+      e.stopPropagation();
       setDragActive(false);
       const droppedFiles = Array.from(e.dataTransfer.files);
       handleFileUpload(droppedFiles);
     }, [uploadConfig]);
-    const handleFileSelect = (e) => {
+    const handleFileSelect = (0, import_react3.useCallback)((e) => {
       const selectedFiles2 = Array.from(e.target.files);
       handleFileUpload(selectedFiles2);
-    };
-    const handleFileUpload = async (fileList) => {
+    }, [uploadConfig]);
+    const handleFileUpload = (0, import_react3.useCallback)(async (fileList) => {
       if (fileList.length === 0)
         return;
       setLoading(true);
-      const uploadPromises = [];
-      for (const file of fileList) {
-        const formData = new FormData();
-        formData.append("file", file);
-        formData.append("folder_path", uploadConfig.folder_path);
-        formData.append("reference_doctype", uploadConfig.reference_doctype);
-        formData.append("reference_docname", uploadConfig.reference_docname);
-        formData.append("description", uploadConfig.description);
-        formData.append("tags", uploadConfig.tags);
-        const uploadPromise = frappe.call({
-          method: "cloud_file_manager.cloud_file_manager.doctype.cloud_file.cloud_file.upload_file_to_products",
-          args: {
-            file_content: await fileToBase64(file),
-            filename: file.name,
-            folder_path: uploadConfig.folder_path,
-            reference_doctype: uploadConfig.reference_doctype,
-            reference_docname: uploadConfig.reference_docname,
-            description: uploadConfig.description,
-            tags: uploadConfig.tags
+      setError(null);
+      try {
+        for (const file of fileList) {
+          validateFile(file);
+        }
+        const uploadPromises = fileList.map(async (file, index) => {
+          try {
+            setUploadProgress((prev) => __spreadProps(__spreadValues({}, prev), {
+              [file.name]: { status: "reading", progress: 0 }
+            }));
+            const fileContent = await uploadManager.readFileAsBase64(file);
+            setUploadProgress((prev) => __spreadProps(__spreadValues({}, prev), {
+              [file.name]: { status: "uploading", progress: 50 }
+            }));
+            const response = await frappe.call({
+              method: "cloud_file_manager.cloud_file_manager.doctype.cloud_file.cloud_file.upload_file_to_products",
+              args: {
+                file_content: fileContent,
+                filename: file.name,
+                folder_path: uploadConfig.folder_path,
+                reference_doctype: uploadConfig.reference_doctype,
+                reference_docname: uploadConfig.reference_docname,
+                description: uploadConfig.description,
+                tags: uploadConfig.tags
+              }
+            });
+            setUploadProgress((prev) => __spreadProps(__spreadValues({}, prev), {
+              [file.name]: { status: "complete", progress: 100 }
+            }));
+            return { success: true, result: response.message, filename: file.name };
+          } catch (error2) {
+            setUploadProgress((prev) => __spreadProps(__spreadValues({}, prev), {
+              [file.name]: { status: "error", progress: 0, error: error2.message }
+            }));
+            return { success: false, error: error2.message, filename: file.name };
           }
         });
-        uploadPromises.push(uploadPromise);
-      }
-      try {
-        const results = await Promise.all(uploadPromises);
-        const successCount = results.filter((r) => {
-          var _a2;
-          return (_a2 = r.message) == null ? void 0 : _a2.success;
-        }).length;
-        frappe.show_alert({
-          message: `Successfully uploaded ${successCount} out of ${fileList.length} files`,
-          indicator: "green"
-        });
+        const results = await Promise.allSettled(uploadPromises);
+        const successCount = results.filter((r) => r.status === "fulfilled" && r.value.success).length;
+        if (window.frappe && frappe.show_alert) {
+          frappe.show_alert({
+            message: `Successfully uploaded ${successCount} out of ${fileList.length} files`,
+            indicator: successCount === fileList.length ? "green" : "orange"
+          });
+        }
+        setTimeout(() => setUploadProgress({}), 3e3);
         loadFiles();
-      } catch (error) {
-        console.error("Upload error:", error);
-        frappe.msgprint("Error uploading files");
+      } catch (error2) {
+        handleError(error2, "uploading files");
       } finally {
         setLoading(false);
       }
-    };
-    const fileToBase64 = (file) => {
-      return new Promise((resolve, reject) => {
-        const reader = new FileReader();
-        reader.onload = () => resolve(reader.result.split(",")[1]);
-        reader.onerror = reject;
-        reader.readAsDataURL(file);
-      });
-    };
-    const scanExistingFiles = async () => {
+    }, [uploadConfig, validateFile, uploadManager, handleError, loadFiles]);
+    const scanExistingFiles = (0, import_react3.useCallback)(async () => {
       setLoading(true);
+      setError(null);
       try {
         const response = await frappe.call({
           method: "cloud_file_manager.cloud_file_manager.doctype.cloud_file.existing_files_manager.scan_existing_files",
@@ -19917,16 +20093,20 @@
           }
         });
         setScanResults(response.message);
-      } catch (error) {
-        console.error("Scan error:", error);
-        frappe.msgprint("Error scanning files");
+      } catch (error2) {
+        handleError(error2, "scanning files");
       } finally {
         setLoading(false);
       }
-    };
-    const migrateFiles = async () => {
+    }, [handleError]);
+    const migrateFiles = (0, import_react3.useCallback)(async () => {
       var _a2;
+      if (!scanResults) {
+        setError("Please run a scan first");
+        return;
+      }
       setLoading(true);
+      setError(null);
       try {
         const response = await frappe.call({
           method: "cloud_file_manager.cloud_file_manager.doctype.cloud_file.existing_files_manager.migrate_existing_files",
@@ -19934,50 +20114,47 @@
             migration_config: migrationConfig
           }
         });
-        frappe.show_alert({
-          message: `Migration completed: ${((_a2 = response.message) == null ? void 0 : _a2.migrated_files) || 0} files processed`,
-          indicator: "green"
-        });
+        if (window.frappe && frappe.show_alert) {
+          frappe.show_alert({
+            message: `Migration completed: ${((_a2 = response.message) == null ? void 0 : _a2.migrated_files) || 0} files processed`,
+            indicator: "green"
+          });
+        }
         loadFiles();
-      } catch (error) {
-        console.error("Migration error:", error);
-        frappe.msgprint("Error migrating files");
+      } catch (error2) {
+        handleError(error2, "migrating files");
       } finally {
         setLoading(false);
       }
-    };
-    const deleteFile = async (fileName) => {
-      if (!confirm("Are you sure you want to delete this file?"))
+    }, [scanResults, migrationConfig, handleError, loadFiles]);
+    const deleteFile = (0, import_react3.useCallback)(async (fileName) => {
+      if (!window.confirm("Are you sure you want to delete this file?"))
         return;
       try {
         await frappe.call({
           method: "cloud_file_manager.cloud_file_manager.doctype.cloud_file.cloud_file.delete_cloud_file",
           args: { cloud_file_name: fileName }
         });
-        frappe.show_alert({
-          message: "File deleted successfully",
-          indicator: "green"
-        });
+        if (window.frappe && frappe.show_alert) {
+          frappe.show_alert({
+            message: "File deleted successfully",
+            indicator: "green"
+          });
+        }
         loadFiles();
-      } catch (error) {
-        console.error("Delete error:", error);
-        frappe.msgprint("Error deleting file");
+      } catch (error2) {
+        handleError(error2, "deleting file");
       }
-    };
-    const filteredFiles = files.filter((file) => {
-      const matchesSearch = file.file_name.toLowerCase().includes(searchTerm.toLowerCase()) || file.tags && file.tags.toLowerCase().includes(searchTerm.toLowerCase());
-      const matchesType = filterType === "all" || filterType === "images" && file.file_type && file.file_type.match(/\.(jpg|jpeg|png|gif)$/i) || filterType === "documents" && file.file_type && file.file_type.match(/\.(pdf|doc|docx)$/i) || filterType === "public" && file.is_public || filterType === "private" && !file.is_public;
-      return matchesSearch && matchesType;
-    });
-    const formatFileSize = (bytes) => {
+    }, [handleError, loadFiles]);
+    const formatFileSize = (0, import_react3.useCallback)((bytes) => {
       if (!bytes)
         return "0 Bytes";
       const k = 1024;
       const sizes = ["Bytes", "KB", "MB", "GB"];
       const i = Math.floor(Math.log(bytes) / Math.log(k));
       return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + " " + sizes[i];
-    };
-    const getFileIcon = (fileType) => {
+    }, []);
+    const getFileIcon = (0, import_react3.useCallback)((fileType) => {
       if (!fileType)
         return /* @__PURE__ */ import_react3.default.createElement(File, {
           className: "w-4 h-4"
@@ -19998,10 +20175,57 @@
       return /* @__PURE__ */ import_react3.default.createElement(File, {
         className: "w-4 h-4"
       });
-    };
-    return /* @__PURE__ */ import_react3.default.createElement("div", {
+    }, []);
+    const renderUploadProgress = (0, import_react3.useMemo)(() => {
+      const progressEntries = Object.entries(uploadProgress);
+      if (progressEntries.length === 0)
+        return null;
+      return /* @__PURE__ */ import_react3.default.createElement("div", {
+        className: "bg-white p-4 rounded-lg border border-gray-200 mt-4"
+      }, /* @__PURE__ */ import_react3.default.createElement("h4", {
+        className: "font-medium mb-3"
+      }, "Upload Progress"), /* @__PURE__ */ import_react3.default.createElement("div", {
+        className: "space-y-2"
+      }, progressEntries.map(([filename, progress]) => /* @__PURE__ */ import_react3.default.createElement("div", {
+        key: filename,
+        className: "flex items-center space-x-3"
+      }, /* @__PURE__ */ import_react3.default.createElement("div", {
+        className: "flex-1"
+      }, /* @__PURE__ */ import_react3.default.createElement("div", {
+        className: "flex justify-between text-sm"
+      }, /* @__PURE__ */ import_react3.default.createElement("span", {
+        className: "truncate"
+      }, filename), /* @__PURE__ */ import_react3.default.createElement("span", {
+        className: "text-gray-500"
+      }, progress.status)), /* @__PURE__ */ import_react3.default.createElement("div", {
+        className: "w-full bg-gray-200 rounded-full h-2 mt-1"
+      }, /* @__PURE__ */ import_react3.default.createElement("div", {
+        className: `h-2 rounded-full transition-all duration-300 ${progress.status === "error" ? "bg-red-500" : progress.status === "complete" ? "bg-green-500" : "bg-blue-500"}`,
+        style: { width: `${progress.progress}%` }
+      })), progress.error && /* @__PURE__ */ import_react3.default.createElement("p", {
+        className: "text-red-500 text-xs mt-1"
+      }, progress.error)), progress.status === "complete" && /* @__PURE__ */ import_react3.default.createElement(CircleCheckBig, {
+        className: "w-5 h-5 text-green-500"
+      }), progress.status === "error" && /* @__PURE__ */ import_react3.default.createElement(CircleAlert, {
+        className: "w-5 h-5 text-red-500"
+      })))));
+    }, [uploadProgress]);
+    return /* @__PURE__ */ import_react3.default.createElement(CloudFileErrorBoundary, null, /* @__PURE__ */ import_react3.default.createElement("div", {
       className: "cloud-file-manager p-6 max-w-7xl mx-auto"
+    }, error && /* @__PURE__ */ import_react3.default.createElement("div", {
+      className: "mb-4 p-4 bg-red-50 border border-red-200 rounded-lg flex items-center justify-between"
     }, /* @__PURE__ */ import_react3.default.createElement("div", {
+      className: "flex items-center"
+    }, /* @__PURE__ */ import_react3.default.createElement(CircleAlert, {
+      className: "w-5 h-5 text-red-500 mr-2"
+    }), /* @__PURE__ */ import_react3.default.createElement("span", {
+      className: "text-red-700"
+    }, error)), /* @__PURE__ */ import_react3.default.createElement("button", {
+      onClick: () => setError(null),
+      className: "text-red-500 hover:text-red-700"
+    }, /* @__PURE__ */ import_react3.default.createElement(X, {
+      className: "w-4 h-4"
+    }))), /* @__PURE__ */ import_react3.default.createElement("div", {
       className: "mb-6"
     }, /* @__PURE__ */ import_react3.default.createElement("h1", {
       className: "text-3xl font-bold text-gray-900 mb-2"
@@ -20019,7 +20243,7 @@
     ].map(({ id, label, icon: Icon2 }) => /* @__PURE__ */ import_react3.default.createElement("button", {
       key: id,
       onClick: () => setActiveTab(id),
-      className: `flex items-center px-1 py-4 border-b-2 font-medium text-sm ${activeTab === id ? "border-blue-500 text-blue-600" : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"}`
+      className: `flex items-center px-1 py-4 border-b-2 font-medium text-sm transition-colors ${activeTab === id ? "border-blue-500 text-blue-600" : "border-transparent text-gray-500 hover:text-gray-700 hover:border-gray-300"}`
     }, /* @__PURE__ */ import_react3.default.createElement(Icon2, {
       className: "w-4 h-4 mr-2"
     }), label)))), activeTab === "upload" && /* @__PURE__ */ import_react3.default.createElement("div", {
@@ -20088,13 +20312,14 @@
       multiple: true,
       onChange: handleFileSelect,
       className: "hidden",
-      id: "file-upload"
+      id: "file-upload",
+      accept: ".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.txt"
     }), /* @__PURE__ */ import_react3.default.createElement("label", {
       htmlFor: "file-upload",
-      className: "inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 cursor-pointer"
+      className: "inline-flex items-center px-4 py-2 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 cursor-pointer transition-colors"
     }, /* @__PURE__ */ import_react3.default.createElement(Plus, {
       className: "w-4 h-4 mr-2"
-    }), "Select Files"))), activeTab === "files" && /* @__PURE__ */ import_react3.default.createElement("div", {
+    }), "Select Files")), renderUploadProgress), activeTab === "files" && /* @__PURE__ */ import_react3.default.createElement("div", {
       className: "space-y-6"
     }, /* @__PURE__ */ import_react3.default.createElement("div", {
       className: "bg-white p-4 rounded-lg border border-gray-200"
@@ -20130,9 +20355,10 @@
       value: "private"
     }, "Private")), /* @__PURE__ */ import_react3.default.createElement("button", {
       onClick: loadFiles,
-      className: "px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50 flex items-center"
+      disabled: loading,
+      className: "px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50 flex items-center disabled:opacity-50"
     }, /* @__PURE__ */ import_react3.default.createElement(RefreshCw, {
-      className: "w-4 h-4 mr-2"
+      className: `w-4 h-4 mr-2 ${loading ? "animate-spin" : ""}`
     }), "Refresh")))), /* @__PURE__ */ import_react3.default.createElement("div", {
       className: "bg-white rounded-lg border border-gray-200"
     }, loading ? /* @__PURE__ */ import_react3.default.createElement("div", {
@@ -20149,7 +20375,7 @@
       className: "divide-y divide-gray-200"
     }, filteredFiles.map((file) => /* @__PURE__ */ import_react3.default.createElement("div", {
       key: file.name,
-      className: "p-4 hover:bg-gray-50"
+      className: "p-4 hover:bg-gray-50 transition-colors"
     }, /* @__PURE__ */ import_react3.default.createElement("div", {
       className: "flex items-center justify-between"
     }, /* @__PURE__ */ import_react3.default.createElement("div", {
@@ -20164,19 +20390,19 @@
       className: "flex items-center space-x-2"
     }, file.file_url && /* @__PURE__ */ import_react3.default.createElement("button", {
       onClick: () => window.open(file.file_url, "_blank"),
-      className: "p-2 text-gray-400 hover:text-gray-600",
+      className: "p-2 text-gray-400 hover:text-gray-600 transition-colors",
       title: "View File"
     }, /* @__PURE__ */ import_react3.default.createElement(Eye, {
       className: "w-4 h-4"
     })), file.s3_url && /* @__PURE__ */ import_react3.default.createElement("button", {
       onClick: () => window.open(file.s3_url, "_blank"),
-      className: "p-2 text-gray-400 hover:text-blue-600",
+      className: "p-2 text-gray-400 hover:text-blue-600 transition-colors",
       title: "View on S3"
     }, /* @__PURE__ */ import_react3.default.createElement(Cloud, {
       className: "w-4 h-4"
     })), /* @__PURE__ */ import_react3.default.createElement("button", {
       onClick: () => deleteFile(file.name),
-      className: "p-2 text-gray-400 hover:text-red-600",
+      className: "p-2 text-gray-400 hover:text-red-600 transition-colors",
       title: "Delete File"
     }, /* @__PURE__ */ import_react3.default.createElement(Trash2, {
       className: "w-4 h-4"
@@ -20191,25 +20417,25 @@
     }, /* @__PURE__ */ import_react3.default.createElement("button", {
       onClick: scanExistingFiles,
       disabled: loading,
-      className: "flex items-center justify-center px-4 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 disabled:opacity-50"
+      className: "flex items-center justify-center px-4 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-blue-600 hover:bg-blue-700 disabled:opacity-50 transition-colors"
     }, /* @__PURE__ */ import_react3.default.createElement(Search, {
       className: "w-4 h-4 mr-2"
     }), loading ? "Scanning..." : "Scan Files"), /* @__PURE__ */ import_react3.default.createElement("button", {
       onClick: migrateFiles,
       disabled: loading || !scanResults,
-      className: "flex items-center justify-center px-4 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 disabled:opacity-50"
+      className: "flex items-center justify-center px-4 py-3 border border-transparent text-sm font-medium rounded-md text-white bg-green-600 hover:bg-green-700 disabled:opacity-50 transition-colors"
     }, /* @__PURE__ */ import_react3.default.createElement(RefreshCw, {
       className: "w-4 h-4 mr-2"
     }), loading ? "Migrating..." : "Migrate Files"), /* @__PURE__ */ import_react3.default.createElement("button", {
       onClick: () => {
         frappe.call({
-          method: "cloud_file_manager.cloud_file_manager.doctype.cloud_file.existing_files_manager.cleanup_orphaned_records"
+          method: "cloud_file_manager.cloud_file_manager.doctype.cloud_file.cloud_file.cleanup_orphaned_files"
         }).then(() => {
           frappe.show_alert("Cleanup completed", "green");
           loadFiles();
         });
       },
-      className: "flex items-center justify-center px-4 py-3 border border-gray-300 text-sm font-medium rounded-md text-gray-700 hover:bg-gray-50"
+      className: "flex items-center justify-center px-4 py-3 border border-gray-300 text-sm font-medium rounded-md text-gray-700 hover:bg-gray-50 transition-colors"
     }, /* @__PURE__ */ import_react3.default.createElement(Trash2, {
       className: "w-4 h-4 mr-2"
     }), "Cleanup Orphaned")), scanResults && /* @__PURE__ */ import_react3.default.createElement("div", {
@@ -20247,37 +20473,13 @@
     }, /* @__PURE__ */ import_react3.default.createElement("h4", {
       className: "font-medium text-yellow-800 mb-2"
     }, "Untracked Files (", scanResults.untracked_files.length, ")"), /* @__PURE__ */ import_react3.default.createElement("div", {
-      className: "max-h-40 overflow-y-auto"
+      className: "max-h-40 overflow-y-auto space-y-1"
     }, scanResults.untracked_files.slice(0, 10).map((file, index) => /* @__PURE__ */ import_react3.default.createElement("div", {
       key: index,
-      className: "text-sm text-gray-600 py-1"
+      className: "text-sm text-gray-600 py-1 px-2 bg-white rounded"
     }, file.name, " (", formatFileSize(file.size), ")")), scanResults.untracked_files.length > 10 && /* @__PURE__ */ import_react3.default.createElement("div", {
-      className: "text-sm text-gray-500 py-1"
-    }, "... and ", scanResults.untracked_files.length - 10, " more"))))), /* @__PURE__ */ import_react3.default.createElement("div", {
-      className: "bg-white p-6 rounded-lg border border-gray-200"
-    }, /* @__PURE__ */ import_react3.default.createElement("h3", {
-      className: "text-lg font-semibold mb-4"
-    }, "Migration Settings"), /* @__PURE__ */ import_react3.default.createElement("div", {
-      className: "space-y-4"
-    }, /* @__PURE__ */ import_react3.default.createElement("label", {
-      className: "flex items-center"
-    }, /* @__PURE__ */ import_react3.default.createElement("input", {
-      type: "checkbox",
-      checked: migrationConfig.auto_organize,
-      onChange: (e) => setMigrationConfig(__spreadProps(__spreadValues({}, migrationConfig), {
-        auto_organize: e.target.checked
-      })),
-      className: "mr-2"
-    }), "Auto-organize files by type"), /* @__PURE__ */ import_react3.default.createElement("label", {
-      className: "flex items-center"
-    }, /* @__PURE__ */ import_react3.default.createElement("input", {
-      type: "checkbox",
-      checked: migrationConfig.create_cloud_records,
-      onChange: (e) => setMigrationConfig(__spreadProps(__spreadValues({}, migrationConfig), {
-        create_cloud_records: e.target.checked
-      })),
-      className: "mr-2"
-    }), "Create Cloud File records for untracked files")))), activeTab === "analytics" && /* @__PURE__ */ import_react3.default.createElement("div", {
+      className: "text-sm text-gray-500 py-1 px-2"
+    }, "... and ", scanResults.untracked_files.length - 10, " more")))))), activeTab === "analytics" && /* @__PURE__ */ import_react3.default.createElement("div", {
       className: "space-y-6"
     }, /* @__PURE__ */ import_react3.default.createElement("div", {
       className: "grid grid-cols-1 md:grid-cols-3 gap-6"
@@ -20337,8 +20539,8 @@
     }, file.file_name), /* @__PURE__ */ import_react3.default.createElement("p", {
       className: "text-sm text-gray-500"
     }, file.folder_path))), /* @__PURE__ */ import_react3.default.createElement("div", {
-      className: "text-sm text-gray-505"
-    }, new Date(file.creation).toLocaleDateString()))))))));
+      className: "text-sm text-gray-500"
+    }, new Date(file.creation).toLocaleDateString())))))))));
   };
   var App_default = App;
 
@@ -20412,4 +20614,4 @@
  * This source code is licensed under the ISC license.
  * See the LICENSE file in the root directory of this source tree.
  */
-//# sourceMappingURL=cloud_file_uploader.bundle.RXISA757.js.map
+//# sourceMappingURL=cloud_file_uploader.bundle.ONJPAR4C.js.map

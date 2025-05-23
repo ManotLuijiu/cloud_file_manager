@@ -1,0 +1,171 @@
+{
+    "actions": [],
+    "allow_rename": 1,
+    "creation": "2025-05-22 22:56:56.923374",
+    "doctype": "DocType",
+    "engine": "InnoDB",
+    "field_order": ["section_break_pj85"],
+    "fields": [
+        {
+            "fieldname": "general_section",
+            "fieldtype": "Section Break",
+            "label": "General Settings"
+        },
+        {
+            "fieldname": "default_folder",
+            "fieldtype": "Data",
+            "label": "Default Folder Path",
+            "default": "public/files/products",
+            "description": "Default folder for file uploads"
+        },
+        {
+            "fieldname": "max_file_size",
+            "fieldtype": "Int",
+            "label": "Max File Size (bytes)",
+            "default": 10485760,
+            "description": "Maximum file size allowed (10MB = 10485760 bytes)"
+        },
+        {
+            "fieldname": "allowed_extensions",
+            "fieldtype": "Text",
+            "label": "Allowed File Extensions",
+            "default": ".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.txt,.csv",
+            "description": "Comma-separated list of allowed file extensions"
+        },
+        {
+            "fieldname": "column_break_1",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "auto_organize_files",
+            "fieldtype": "Check",
+            "label": "Auto-organize Files by Type",
+            "default": 1
+        },
+        {
+            "fieldname": "enable_duplicate_check",
+            "fieldtype": "Check",
+            "label": "Enable Duplicate File Check",
+            "default": 1
+        },
+        {
+            "fieldname": "cache_file_stats",
+            "fieldtype": "Check",
+            "label": "Cache File Statistics",
+            "default": 1
+        },
+        {
+            "fieldname": "s3_section",
+            "fieldtype": "Section Break",
+            "label": "S3 Configuration"
+        },
+        {
+            "fieldname": "enable_s3_upload",
+            "fieldtype": "Check",
+            "label": "Enable S3 Upload",
+            "default": 0
+        },
+        {
+            "fieldname": "s3_bucket_name",
+            "fieldtype": "Data",
+            "label": "S3 Bucket Name",
+            "depends_on": "enable_s3_upload"
+        },
+        {
+            "fieldname": "s3_region",
+            "fieldtype": "Data",
+            "label": "S3 Region",
+            "default": "us-east-1",
+            "depends_on": "enable_s3_upload"
+        },
+        {
+            "fieldname": "column_break_2",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "s3_custom_domain",
+            "fieldtype": "Data",
+            "label": "Custom Domain (optional)",
+            "depends_on": "enable_s3_upload"
+        },
+        {
+            "fieldname": "s3_access_key_encrypted",
+            "fieldtype": "Check",
+            "label": "S3 Credentials Encrypted",
+            "default": 1,
+            "depends_on": "enable_s3_upload"
+        },
+        {
+            "fieldname": "cleanup_section",
+            "fieldtype": "Section Break",
+            "label": "Cleanup Settings"
+        },
+        {
+            "fieldname": "cleanup_temp_files",
+            "fieldtype": "Check",
+            "label": "Auto-cleanup Temp Files",
+            "default": 1
+        },
+        {
+            "fieldname": "temp_file_retention_days",
+            "fieldtype": "Int",
+            "label": "Temp File Retention (days)",
+            "default": 1,
+            "depends_on": "cleanup_temp_files"
+        },
+        {
+            "fieldname": "column_break_3",
+            "fieldtype": "Column Break"
+        },
+        {
+            "fieldname": "enable_file_versioning",
+            "fieldtype": "Check",
+            "label": "Enable File Versioning",
+            "default": 0
+        },
+        {
+            "fieldname": "max_versions_per_file",
+            "fieldtype": "Int",
+            "label": "Max Versions per File",
+            "default": 5,
+            "depends_on": "enable_file_versioning"
+        }
+    ],
+    "grid_page_length": 50,
+    "index_web_pages_for_search": 1,
+    "issingle": 1,
+    "links": [],
+    "modified": "2025-05-22 22:56:56.923374",
+    "modified_by": "Administrator",
+    "module": "Cloud File Manager",
+    "name": "Cloud File Settings",
+    "owner": "Administrator",
+    "permissions": [
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "print": 1,
+            "read": 1,
+            "role": "System Manager",
+            "share": 1,
+            "write": 1
+        },
+        {
+            "create": 1,
+            "delete": 1,
+            "email": 1,
+            "export": 1,
+            "print": 1,
+            "read": 1,
+            "report": 1,
+            "role": "File Manager",
+            "share": 1,
+            "write": 1
+        }
+    ],
+    "row_format": "Dynamic",
+    "sort_field": "modified",
+    "sort_order": "DESC",
+    "states": []
+}

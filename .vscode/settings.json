@@ -1,0 +1,118 @@
+{
+  "biome.enabled": true,
+  "biome.lspBin": "biome",
+  "editor.defaultFormatter": "biomejs.biome",
+  "editor.formatOnSave": true,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "files.autoSave": "onFocusChange",
+  "editor.fontFamily": "Consolas, 'MesloLGS Nerd Font', monospace",
+  "terminal.integrated.fontFamily": "'MesloLGS Nerd Font'",
+  "terminal.integrated.fontSize": 13,
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.js": "javascript"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "charliermarsh.ruff",
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[tailwindcss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.wordWrap": "on",
+  // "python.analysis.extraPaths": ["/home/frappe/-bench/apps"],
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true,
+    "**/.bench/**": true,
+    "**/sites/assets/**": true,
+    "**/sites/private/files/**": true,
+    "**/sites/*/public/**": true,
+    "**/sites/*/private/backups/**": true,
+    "**/sites/*/private/files/**": true,
+    "**/__pycache__/**": true,
+    "**/*.pyc": true,
+    "**/*.log": true,
+    "**/logs/**": true,
+    "**/dist/**": true,
+    ".venv": true,
+    "env": true,
+    "apps/translation_tools/translation_tools/public/js/utils/JsBarcode.all.min.js": true,
+    "apps/translation_tools/translation_tools/public/js/utils/pdfmake.min.js": true,
+    "apps/translation_tools/translation_tools/public/js/utils/vfs_fonts.js": true
+  },
+  "files.exclude": {
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/.DS_Store": true,
+    "**/.git": false,
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/*.code-search": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "**/sites/assets/**": true,
+    "apps/translation_tools/translation_tools/public/js/utils/JsBarcode.all.min.js": true,
+    "apps/translation_tools/translation_tools/public/js/utils/pdfmake.min.js": true,
+    "apps/translation_tools/translation_tools/public/js/utils/vfs_fonts.js": true
+  },
+  "python.defaultInterpreterPath": "~/frappe-bench/env/bin/python",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "tailwindCSS.experimental.configFile": "./tailwind.config.js",
+  "tailwindCSS.lint.invalidTailwindDirective": "ignore",
+  "cSpell.words": [
+    "docname",
+    "doctypes",
+    "fieldtype",
+    "filecontent",
+    "Inno",
+    "istable",
+    "Mitr",
+    "msgprint",
+    "parentfield",
+    "parenttype",
+    "pdfmake",
+    "posawesome",
+    "Pridi",
+    "venv"
+  ],
+  "postman.settings.dotenv-detection-notification-visibility": false
+}
